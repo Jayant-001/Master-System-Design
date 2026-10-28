@@ -1,2 +1,2 @@
-# System-Design-Interview-Preparation
-System Design Interview Preparation
+# Master-System-Design
+Master System Design
