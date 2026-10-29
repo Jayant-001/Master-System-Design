@@ -1,0 +1,6 @@
+services:
+  kafka:
+    image: apache/kafka:4.4.0
+    container_name: kafka
+    ports:
+      - "127.0.0.1:9092:9092"   # reachable only from this laptop
