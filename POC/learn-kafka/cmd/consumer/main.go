@@ -26,7 +26,7 @@ func main() {
 	fmt.Println("waiting for messages... (Ctrl+C to stop)")
 
 	for {
-		m, err := r.ReadMessage(ctx) // blocks until a message arrives; commits the offset after
+		m, err := r.FetchMessage(ctx) // blocks until a message arrives; commits the offset after
 		if err != nil {
 			if ctx.Err() != nil {
 				return // Ctrl + C
@@ -35,5 +35,9 @@ func main() {
 		}
 		
 		fmt.Printf("partition=%d offset=%d key=%s value=%s\n", m.Partition, m.Offset, m.Key, m.Value)
+
+		if err := r.CommitMessages(ctx, m); err != nil {
+			log.Fatalf("Failed to commit message: %v", err)
+		}
 	}
 }

@@ -16,6 +16,7 @@ func main() {
 		Topic: 			"orders",
 		Balancer: 		&kafka.Hash{},
 		BatchTimeout: 	10 * time.Millisecond,
+		RequiredAcks: 	kafka.RequireAll,
 	}
 
 	defer w.Close()
