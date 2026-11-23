@@ -1,6 +1,6 @@
 # 03: Webhook Delivery Service
 
-> You built a Message Queue and a Task Scheduler in `../Concurrency/`. Here the consumers are **other companies' servers on the internet**: slow, flaky, rate-limited, sometimes dead, and sometimes malicious.
+> You built a Message Queue and a Task Scheduler in `../../Concurrency/`. Here the consumers are **other companies' servers on the internet**: slow, flaky, rate-limited, sometimes dead, and sometimes malicious.
 
 ---
 

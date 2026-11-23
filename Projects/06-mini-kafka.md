@@ -1,6 +1,6 @@
 # 06: Mini Kafka (A Log-Based Message Broker)
 
-> You've used Kafka in `../Master-System-Design/Kafka/`. Now you build the core of one: an append-only log on disk, partitions, consumer groups, and replication. By the end you'll know what `acks=all` actually means, because you implemented it.
+> You've used Kafka in `../Kafka/`. Now you build the core of one: an append-only log on disk, partitions, consumer groups, and replication. By the end you'll know what `acks=all` actually means, because you implemented it.
 
 ---
 

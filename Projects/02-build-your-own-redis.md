@@ -1,6 +1,6 @@
 # 02: Build Your Own Redis
 
-> You built an in-memory KV store in `../Concurrency/` (Mini Redis, TCP Server). This version speaks the **real Redis wire protocol**, so `redis-cli`, `redis-benchmark`, and any Redis client library work against it. Then you make it survive crashes, run out of memory gracefully, replicate, and shard.
+> You built an in-memory KV store in `../../Concurrency/` (Mini Redis, TCP Server). This version speaks the **real Redis wire protocol**, so `redis-cli`, `redis-benchmark`, and any Redis client library work against it. Then you make it survive crashes, run out of memory gracefully, replicate, and shard.
 
 ---
 

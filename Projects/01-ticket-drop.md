@@ -1,6 +1,6 @@
 # 01: Ticket Drop (500 Seats, 20,000 Fans)
 
-> You already solved this inside one JVM (`../Concurrency/TicketMaster`). This version has 3 app instances, a real database, a payment provider that times out, and bots. Your `synchronized` blocks protect nothing here.
+> You already solved this inside one JVM (`../../Concurrency/TicketMaster`). This version has 3 app instances, a real database, a payment provider that times out, and bots. Your `synchronized` blocks protect nothing here.
 
 ---
 
@@ -314,7 +314,7 @@ Two requests with the same key must not both reach "charge". What DB feature can
 
 **Incident:** After a purchase, you publish `TicketSold` to a broker. The email service sends the ticket and analytics counts revenue. Some customers paid but never got an email. Some got an email for an order that was rolled back.
 
-> You touched this in `../Master-System-Design/Kafka/1-order-checkout-service` (OutboxHandler). This time, **prove it holds under chaos**.
+> You touched this in `../Kafka/1-order-checkout-service` (OutboxHandler). This time, **prove it holds under chaos**.
 
 **Done when:**
 - [ ] I5 passes while you randomly `kill -9` the app, the relay, and the broker during load.

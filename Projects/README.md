@@ -2,9 +2,11 @@
 
 Nineteen projects. Each starts as a small **base system**. After that, every **level** is a real production incident: make it break, measure it, fix it, and write down what you learned.
 
-These are the distributed, production versions of what you already built in one process in `../Concurrency/` (TicketMaster, Mini Redis, Rate Limiter, Circuit Breaker, Load Balancer, Message Queue...). Your `synchronized` and `ReentrantLock` stop protecting anything once a second instance is running.
+These are the distributed, production versions of what you already built in one process in `../../Concurrency/` (TicketMaster, Mini Redis, Rate Limiter, Circuit Breaker, Load Balancer, Message Queue...). Your `synchronized` and `ReentrantLock` stop protecting anything once a second instance is running.
 
 > These files don't give answers. They give you requirements, the questions to answer, what to search for, and how to check your own work. If you get stuck, open the hints, which are nudges and not solutions.
+
+> 🛠️ **Real build (open source):** [Code Gym](code-gym/README.md) is a tool for practicing on your own codebase. It has its own plan, milestones, checkpoints, and progress board in `code-gym/`.
 
 ---
 

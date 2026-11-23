@@ -1,6 +1,6 @@
 # 13: Distributed Build Farm
 
-> You built a Thread Pool and a Task Scheduler in `../Concurrency/`. Here the "tasks" are build steps with dependencies, running on 50 machines, and the best optimization is to **not run them at all**, because someone already did.
+> You built a Thread Pool and a Task Scheduler in `../../Concurrency/`. Here the "tasks" are build steps with dependencies, running on 50 machines, and the best optimization is to **not run them at all**, because someone already did.
 
 ---
 

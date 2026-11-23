@@ -1,6 +1,6 @@
 # 05: Cascading Failure Lab
 
-> You built a Rate Limiter, Circuit Breaker, and Load Balancer as single-process classes in `../Concurrency/`. Here they run on the network, between real services, while you break things on purpose and watch one slow dependency take down everything.
+> You built a Rate Limiter, Circuit Breaker, and Load Balancer as single-process classes in `../../Concurrency/`. Here they run on the network, between real services, while you break things on purpose and watch one slow dependency take down everything.
 
 ---
 

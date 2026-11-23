@@ -1,6 +1,6 @@
 # 04: Live Canvas (A Shared Pixel Board for Everyone)
 
-> You built a WebSocket server and Pub/Sub in `../Concurrency/`. Now 10,000 people are connected at once. Every pixel any of them places has to reach all the others in under a second, across many servers, through deploys and bot attacks.
+> You built a WebSocket server and Pub/Sub in `../../Concurrency/`. Now 10,000 people are connected at once. Every pixel any of them places has to reach all the others in under a second, across many servers, through deploys and bot attacks.
 
 ---
 
